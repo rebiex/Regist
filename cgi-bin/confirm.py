@@ -50,7 +50,7 @@ else:
 	print ("</HTML>")
 
 	if answer == 'yes':
-		db = pymysql.connect("localhost","root","","Regist")
+		db = pymysql.connect("localhost","scanNskip","scanNskippass","Regist")
 		cursor = db.cursor()
 		try:
 			print("Prepare to insert")
